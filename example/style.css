@@ -15,8 +15,8 @@ h2{display: flex;
     font-size: 100px;
 }
 button{
-    background-color: aliceblue;
-    padding: 50px;
-    color: aliceblue;
+
+    padding: 10px;
+    color: rgb(6, 135, 248);
 
 }
