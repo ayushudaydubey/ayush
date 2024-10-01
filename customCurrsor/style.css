@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: black ;
+    align-items: center;
+    justify-content: center;
+display: flex;
+
+
+}
+.currsor{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.39);
+    position: fixed;
+
+    z-index: 9;
+}
+.image{
+
+    background-color: aquamarine;
+    height: 30vw;
+    width: 60vw;
+ position: relative;
+ font-size: 15px;
+ align-content: center;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color:transparent;
+  position: absolute;
+  z-index: 10;
+}
