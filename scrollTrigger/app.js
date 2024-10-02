@@ -12,3 +12,17 @@ gsap.to(".page2 h2",{
 
     }
 })
+
+var obj ={name : "ayush",
+    age :22
+}
+var copyobj ={...obj}
+delete obj.age;
+
+function abcd ( a){
+  a();
+}
+
+abcd(function (){
+    console.log("hello")
+})
